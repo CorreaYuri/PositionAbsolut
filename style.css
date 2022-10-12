@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: #b2bec3;
+    font-family: "Open Sans, sans-serif";
+}
+ul, ol, li{
+    list-style: none;
+}
+.elementExemple{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+.elementExemple_first{
+    background-color: #6c5ce7;
+    position: absolute;
+    right: 0;
+
+    
+}
+.elementExemple_secund{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00b894;
+}
+.elementExemple_lest{
+    position: absolute;
+    background-color: #d63031;
+}
+.elementExemple-internal{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #00cec9;
+}
